@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>Conditional statements</p>
+    </div>
+
+    <script>
+
+        let x = Number(prompt("Enter a random number"))
+
+        if (x % 2 == 0) {
+            console.log("Even")
+        } else {
+            console.log("Odd")
+        }
+
+
+        let num1 = Number(prompt("Enter the first number:"));
+        let num2 = Number(prompt("Enter the second number:"));
+        let num3 = Number(prompt("Enter the third number:"));
+
+        if (num1 > num2 && num1 > num3) {
+            console.log("Largest is" + num1);
+        } else if (num2 > num1 && num2 > num3) {
+            console.log("Largest is" + num2);
+        } else {
+            console.log("Largest is" + num3)
+        }
+
+        //use a ternary operator to write a program that checks whether a person is eligible to drive,assume legal age of 18
+
+        let age = Number(prompt("Enter your age:"));
+
+        age >= 18 ? console.log("You can drive") : console.log("You cannot drive");
+
+        console.log(result);
+    </script>
+</body>
+
+</html>
