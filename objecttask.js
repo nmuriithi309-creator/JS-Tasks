@@ -95,6 +95,8 @@ console.log(userProfile.projects[0].technologies[2]);
 
 console.log(userProfile.projects[1].tasks[1].title);
 
+//TASKS
+
 //Remove a middle character: Given "planet", produce "planet" without the third character, resulting in "planet" with the a removed: "plnet".
 
 let word = "planet"
